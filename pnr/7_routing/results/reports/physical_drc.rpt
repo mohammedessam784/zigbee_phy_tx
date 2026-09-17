@@ -32,7 +32,7 @@ Check 13035 nets, 0 have Errors
 [CHECK OPEN NETS] Elapsed real time: 0:00:00 
 [CHECK OPEN NETS] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
 [CHECK OPEN NETS] Stage (MB): Used    0  Alloctr    0  Proc    0 
-[CHECK OPEN NETS] Total (MB): Used  102  Alloctr  106  Proc 2982 
+[CHECK OPEN NETS] Total (MB): Used  102  Alloctr  106  Proc 3436 
 Printing options for 'route.common.*'
 common.verbose_level                                    :	 0                   
 
@@ -50,27 +50,27 @@ Information: Using 12 threads for routing. (ZRT-444)
 Checked	1/36 Partitions, Violations =	0
 Checked	2/36 Partitions, Violations =	0
 Checked	3/36 Partitions, Violations =	0
-Checked	5/36 Partitions, Violations =	0
+Checked	4/36 Partitions, Violations =	0
 Checked	5/36 Partitions, Violations =	0
 Checked	6/36 Partitions, Violations =	0
-Checked	8/36 Partitions, Violations =	0
-Checked	8/36 Partitions, Violations =	0
+Checked	7/36 Partitions, Violations =	0
+Checked	9/36 Partitions, Violations =	0
 Checked	9/36 Partitions, Violations =	0
 Checked	10/36 Partitions, Violations =	0
 Checked	11/36 Partitions, Violations =	0
 Checked	12/36 Partitions, Violations =	0
+Checked	13/36 Partitions, Violations =	0
 Checked	14/36 Partitions, Violations =	0
-Checked	14/36 Partitions, Violations =	0
-Checked	16/36 Partitions, Violations =	0
+Checked	15/36 Partitions, Violations =	0
 Checked	16/36 Partitions, Violations =	0
 Checked	17/36 Partitions, Violations =	0
 Checked	18/36 Partitions, Violations =	0
 Checked	19/36 Partitions, Violations =	0
-Checked	21/36 Partitions, Violations =	0
+Checked	20/36 Partitions, Violations =	0
 Checked	21/36 Partitions, Violations =	0
 Checked	22/36 Partitions, Violations =	0
 Checked	23/36 Partitions, Violations =	0
-Checked	25/36 Partitions, Violations =	0
+Checked	24/36 Partitions, Violations =	0
 Checked	25/36 Partitions, Violations =	0
 Checked	26/36 Partitions, Violations =	0
 Checked	27/36 Partitions, Violations =	0
@@ -79,14 +79,14 @@ Checked	29/36 Partitions, Violations =	0
 Checked	30/36 Partitions, Violations =	0
 Checked	31/36 Partitions, Violations =	0
 Checked	32/36 Partitions, Violations =	0
-Checked	33/36 Partitions, Violations =	0
+Checked	34/36 Partitions, Violations =	0
 Checked	34/36 Partitions, Violations =	0
 Checked	35/36 Partitions, Violations =	0
 Checked	36/36 Partitions, Violations =	0
-[DRC CHECK] Elapsed real time: 0:00:02 
-[DRC CHECK] Elapsed cpu  time: sys=0:00:00 usr=0:00:04 total=0:00:04
+[DRC CHECK] Elapsed real time: 0:00:07 
+[DRC CHECK] Elapsed cpu  time: sys=0:00:00 usr=0:00:05 total=0:00:06
 [DRC CHECK] Stage (MB): Used    0  Alloctr    0  Proc    0 
-[DRC CHECK] Total (MB): Used  120  Alloctr  125  Proc 2982 
+[DRC CHECK] Total (MB): Used  120  Alloctr  124  Proc 3436 
 Warning: No antenna rules defined, Skip antenna analysis. (ZRT-309)
 
 DRC-SUMMARY:

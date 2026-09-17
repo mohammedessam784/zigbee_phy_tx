@@ -1,31 +1,3 @@
-Information: The stitching and editing of coupling caps is turned ON for design 'zigbee_phy_tx.dlib:zigbee_phy_tx_routing.design'. (TIM-125)
-Information: Design zigbee_phy_tx_routing has 13035 nets, 0 global routed, 13033 detail routed. (NEX-024)
-Information: The RC mode used is DR for design 'zigbee_phy_tx'. (NEX-022)
----extraction options---
-Corner: default
- late_cap_scale                : 1
- late_res_scale                : 1
- late_ccap_scale               : 1
- early_cap_scale               : 1
- early_res_scale               : 1
- early_ccap_scale              : 1
-Global options:
- late_ccap_threshold       : 0.003pf
- late_ccap_ratio           : 0.03
- reference_direction       : use_from_tluplus
- real_metalfill_extraction : none
- virtual_shield_extraction : true
----app options---
- host.max_cores                   : 12
- extract.connect_open           : true
- extract.incremental_extraction : true
- extract.enable_coupling_cap    : true
-Extracting design: zigbee_phy_tx_routing 
-Information: coupling capacitance is created explicitly. (NEX-029)
-Information: 13033 nets are successfully extracted. (NEX-028)
-Information: Advanced receiver model has not been enabled for detailed routed design. (TIM-204)
-Information: Update timing completed net estimation for all the timing graph nets (TIM-111)
-Information: Net estimation statistics: timing graph nets = 13033, routed nets = 13033, across physical hierarchy nets = 0, parasitics cached nets = 13033, delay annotated nets = 0, parasitics annotated nets = 0, multi-voltage nets = 0. (TIM-112)
 ****************************************
 Report : timing
         -path_type full
@@ -34,7 +6,7 @@ Report : timing
         -report_by design
 Design : zigbee_phy_tx
 Version: O-2018.06-SP1
-Date   : Fri Sep 18 00:50:49 2026
+Date   : Fri Sep 18 02:39:32 2026
 ****************************************
 Information: Timer using 'SI, Timing Window Analysis, CRPR'. (TIM-050)
 

@@ -15,39 +15,49 @@ PG scan complete.  Hash key = e7d29ea33af419e3
 Loading layers using 12 cores.
 Loading layer M1:
 Loading layer M2:
-Layer M1:  0 straps, 0 other, 0 preroute
-Layer M1:  0 secDefs  0 sectors (0 empty)
+Loading layer M3:
 Loading layer M4:
 Loading layer M5:
 Loading layer M6:
-Loading layer M7:
 Loading layer M8:
 Loading layer M9:
-Loading layer M3:
+Loading layer M7:
+Layer M1:  0 straps, 0 other, 0 preroute
+Layer M1:  0 secDefs  0 sectors (0 empty)
 Layer M9:  103 straps, 101 other, 0 preroute
 Layer M9:  13 secDefs  204 sectors (0 empty)
 Layer M9:   43.769 ave hvObjs/secDef max 99 at {{7.2700 19.8550} {9.7300 669.5200}}
 Layer M8:  7509 straps, 7443 other, 0 preroute
 Layer M8:  10 secDefs  14952 sectors (0 empty)
 Layer M8:    1.600 ave hvObjs/secDef max 3 at {{659.8550 666.5700} {669.8400 666.7100}}
-Layer M2:  0 straps, 22329 other, 0 preroute
-Layer M2:  6 secDefs  22329 sectors (0 empty)
-Layer M2:    2.000 ave hvObjs/secDef max 2 at {{340.0250 666.7200} {341.6850 666.7600}}
-Layer M5:  0 straps, 22329 other, 0 preroute
-Layer M5:  6 secDefs  22329 sectors (0 empty)
-Layer M5:    2.000 ave hvObjs/secDef max 2 at {{340.0250 666.7200} {341.6850 666.7600}}
-Layer M6:  0 straps, 22329 other, 0 preroute
-Layer M6:  6 secDefs  22329 sectors (0 empty)
-Layer M6:    2.000 ave hvObjs/secDef max 2 at {{340.0250 666.7200} {341.6850 666.7600}}
 Layer M3:  0 straps, 22329 other, 0 preroute
 Layer M3:  6 secDefs  22329 sectors (0 empty)
 Layer M3:    2.000 ave hvObjs/secDef max 2 at {{340.0250 666.7200} {341.6850 666.7600}}
 Layer M4:  0 straps, 22329 other, 0 preroute
 Layer M4:  6 secDefs  22329 sectors (0 empty)
 Layer M4:    2.000 ave hvObjs/secDef max 2 at {{340.0250 666.7200} {341.6850 666.7600}}
+Layer M2:  0 straps, 22329 other, 0 preroute
+Layer M2:  6 secDefs  22329 sectors (0 empty)
+Layer M2:    2.000 ave hvObjs/secDef max 2 at {{340.0250 666.7200} {341.6850 666.7600}}
 Layer M7:  0 straps, 22329 other, 0 preroute
 Layer M7:  6 secDefs  22329 sectors (0 empty)
 Layer M7:    2.000 ave hvObjs/secDef max 2 at {{340.0250 666.7200} {341.6850 666.7600}}
+Layer M5:  0 straps, 22329 other, 0 preroute
+Layer M5:  6 secDefs  22329 sectors (0 empty)
+Layer M5:    2.000 ave hvObjs/secDef max 2 at {{340.0250 666.7200} {341.6850 666.7600}}
+Layer M6:  0 straps, 22329 other, 0 preroute
+Layer M6:  6 secDefs  22329 sectors (0 empty)
+Layer M6:    2.000 ave hvObjs/secDef max 2 at {{340.0250 666.7200} {341.6850 666.7600}}
+Saving PG structure for 'zigbee_phy_tx.dlib:zigbee_phy_tx_routing.design'
+Layer M1: wrote 0 secDefs; 0 sectors
+Layer M2: wrote 6 secDefs; 22329 sectors
+Layer M3: wrote 6 secDefs; 22329 sectors
+Layer M4: wrote 6 secDefs; 22329 sectors
+Layer M5: wrote 6 secDefs; 22329 sectors
+Layer M6: wrote 6 secDefs; 22329 sectors
+Layer M7: wrote 6 secDefs; 22329 sectors
+Layer M8: wrote 10 secDefs; 14952 sectors
+Layer M9: wrote 13 secDefs; 204 sectors
 
 Sector Array Stats:
 Num Sectors: 149130
@@ -149,6 +159,12 @@ check_legality succeeded.
 
 **************************
 
+Place Cache save: 2518 elements -- 0 drcFail 2518 drcOk
+Place Cache save: 55 libcells referenced from 1 libs
+Place Cache save: used 6 of 59 total secDefs
+Access Cache save: 2586 elements -- 0 drcFail 2586 drcOk
+Access Cache save: 56 libcells referenced from 1 libs
+Access Cache save: used 6 of 59 total secDefs
 NPLDRC Place Cache: unique cache elements 2518
 NPLDRC Place Cache: hit rate  93.0%  (2518 / 36125)
 NPLDRC Access Cache: unique cache elements 2586

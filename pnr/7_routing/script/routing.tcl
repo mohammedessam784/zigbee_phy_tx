@@ -178,7 +178,7 @@ remove_stdcell_fillers_with_violation
 
 
 #######################################################################
-	# --------------- Important Checks ------------- #
+	# --------------- Important Checks and reports ------------- #
 #######################################################################
 check_pg_drc 				> ../results/reports/pg_drc.rpt 
 check_pg_connectivity                   > ../results/reports/pg_connectivity.rpt
@@ -193,12 +193,15 @@ check_lvs -max_errors 0 		> ../results/reports/lvs_errors.rpt
 check_legality 				> ../results/reports/legality.rpt
 
 
+
 #######################################################################
-	# --------------- Save Block ------------- #
+	# --------------- Save Block & outputs ------------- #
 #######################################################################
 
-write_def                    ../results/outputs/${design}.def
-write_verilog -include {all} ../results/outputs/${design}.v
-write_sdc -output            ../results/outputs/${design}.sdc
+write_parasitics -output 	../results/outputs/${design}.spef
+write_def                	../results/outputs/${design}.def
+write_verilog -include {all}   	../results/outputs/${design}.v
+write_sdc -output 		../results/outputs/${design}.sdc
+write_gds 			../results/outputs/${design}.gds
 
 save_block

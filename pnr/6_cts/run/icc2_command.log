@@ -805,3 +805,7 @@ win_set_filter -class shape -filter {} -layer {}
 win_set_filter -class via -filter {} -layer {}
 gui_set_map_option -map {cellDensityMap} -option {area_type} -value {Reset}
 gui_set_map_option -map {cellDensityMap} -option {area_type} -value {WholeDesign}
+gui_set_map_option -map {cellDensityMap} -option {hierarchical} -value {false}
+gui_set_map_option -map {cellDensityMap} -option {hierarchical} -value {true}
+gui_show_map -window [gui_get_current_window -types Layout -mru] -map {cellDensityMap} -show {false}
+exit

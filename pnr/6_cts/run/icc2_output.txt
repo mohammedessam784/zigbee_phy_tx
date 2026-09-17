@@ -8746,4 +8746,9 @@ icc2_shell> write_sdc -output            ../results/outputs/${design}.sdc
 icc2_shell> save_block
 Information: Saving block 'zigbee_phy_tx.dlib:zigbee_phy_tx_cts.design'
 1
-icc2_shell> 
+icc2_shell> exit
+Maximum memory usage for this session: 1120.52 MB
+CPU usage for this session:    508 seconds (  0.14 hours)
+Elapsed time for this session:   3368 seconds (  0.94 hours)
+Thank you for using IC Compiler II.
+

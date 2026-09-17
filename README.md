@@ -6,3 +6,6 @@
 
 ## 3_floorplan 
 ![alt text](floorplan.PNG)
+
+## 4_powerplan 
+![alt text](pnr/4_powerplan/powerplan.PNG)

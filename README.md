@@ -10,6 +10,9 @@
 ## 4_powerplan 
 ![alt text](pnr/4_powerplan/powerplan.PNG)
 
-## 4_placement 
+## 5_placement 
 
 ![alt text](placement.PNG)
+
+## 6_CTS
+![alt text](pnr/6_cts/CTS.png)

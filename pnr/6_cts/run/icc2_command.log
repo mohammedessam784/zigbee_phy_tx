@@ -198,3 +198,43 @@ write_def                    ../results/outputs/${design}.def
 write_verilog -include {all} ../results/outputs/${design}.v
 write_sdc -output            ../results/outputs/${design}.sdc
 save_block
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_NWELL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PO -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PODMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_CO -value false
+win_set_filter -visible -class routing_blockage -layer {0-3}
+win_set_filter -visible -class shape -filter {} -layer {0-3}
+win_set_filter -visible -class via -filter {} -layer {0-3}
+win_set_filter -visible -class terminal -filter {}  -layer {0-3}
+win_set_filter -class routing_blockage -layer {0-3}
+win_set_filter -class shape -filter {} -layer {0-3}
+win_set_filter -class via -filter {} -layer {0-3}
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M9 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M9DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M8 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M9DMY -value true
+win_set_filter -visible -class routing_blockage -layer {0-3 25 28}
+win_set_filter -visible -class shape -filter {} -layer {0-3 25 28}
+win_set_filter -visible -class via -filter {} -layer {0-3 25 28}
+win_set_filter -visible -class terminal -filter {}  -layer {0-3 25 28}
+win_set_filter -class routing_blockage -layer {0-3 25 28}
+win_set_filter -class shape -filter {} -layer {0-3 25 28}
+win_set_filter -class via -filter {} -layer {0-3 25 28}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {554.780 256.545}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {554.525 255.075}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {552.630 254.805}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {542.630 258.990}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {542.615 258.995}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {542.630 258.990}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {542.630 258.855}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {542.630 258.855}
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M8 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M9 -value true
+win_set_filter -visible -class routing_blockage -layer {0-3}
+win_set_filter -visible -class shape -filter {} -layer {0-3}
+win_set_filter -visible -class via -filter {} -layer {0-3}
+win_set_filter -visible -class terminal -filter {}  -layer {0-3}
+win_set_filter -class routing_blockage -layer {0-3}
+win_set_filter -class shape -filter {} -layer {0-3}
+win_set_filter -class via -filter {} -layer {0-3}
+gui_zoom -window [gui_get_current_window -view] -full

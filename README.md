@@ -17,11 +17,11 @@
 ## 6_CTS
 ![alt text](pnr/6_cts/CTS.png)
 
-![alt text](pnr/6_cts/Clock Tree.png)
+![alt text](pnr/6_cts/Clock_Tree.png)
 
 ## 7_Routing
 ![alt text](pnr/7_routing/Routing.png)
 
-![alt text](pnr/7_routing/Cell Density.png)
+![alt text](pnr/7_routing/Cell_Density.png)
 
-![alt text](pnr/7_routing/Cell Map Utilization.png)
+![alt text](pnr/7_routing/Cell_Map_Utilization.png)

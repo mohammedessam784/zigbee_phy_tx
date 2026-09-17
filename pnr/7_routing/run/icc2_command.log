@@ -613,3 +613,18 @@ gui_show_map -window [gui_get_current_window -types Layout -mru] -map {cellMapUt
 gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {352.750 336.715}
 gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {352.925 336.685}
 gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {330.500 354.250}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {336.715 368.030}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {336.715 368.030}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {336.715 368.030}
+gui_show_map -window [gui_get_current_window -types Layout -mru] -map {cellMapUtilMap} -show {false}
+gui_show_error_data
+gui_error_browser -show
+gui_error_browser -hide
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {369.680 390.190}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {270.235 546.925}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {219.545 706.130}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {219.545 691.385}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {219.545 684.015}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {334.235 340.770}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {334.235 340.770}
+gui_zoom -window [gui_get_current_window -view] -full

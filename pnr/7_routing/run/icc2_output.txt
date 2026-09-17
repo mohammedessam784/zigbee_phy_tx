@@ -5901,4 +5901,5 @@ Information: Saving block 'zigbee_phy_tx.dlib:zigbee_phy_tx_routing.design'
 1
 icc2_shell> report_constraint -all_violators > ../results/reports/routing_violations.rpt
 icc2_shell> report_qor -summary > ../results/reports/qor.rpt
+icc2_shell> gui_show_error_data
 icc2_shell> 

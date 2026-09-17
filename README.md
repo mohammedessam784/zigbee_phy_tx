@@ -1,5 +1,8 @@
-"# zigbee_phy_tx" 
+# zigbee_phy_tx
 
-#2_design_lib 
+## 2_design_lib 
 
-![alt text](Capture.PNG)
+![alt text](design_lib.PNG)
+
+## 3_floorplan 
+![alt text](floorplan.PNG)
